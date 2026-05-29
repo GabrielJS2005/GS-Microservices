@@ -1,5 +1,9 @@
 package gabrielJose556695.AegisOrbit.exceptions.handler;
 
+import gabrielJose556695.AegisOrbit.exceptions.DatabaseException;
+import gabrielJose556695.AegisOrbit.exceptions.ResourceNotFoundException;
+import gabrielJose556695.AegisOrbit.exceptions.dto.CustomErrorDTO;
+import gabrielJose556695.AegisOrbit.exceptions.dto.ValidationErrorDTO;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

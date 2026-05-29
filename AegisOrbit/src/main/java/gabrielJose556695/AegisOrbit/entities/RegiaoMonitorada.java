@@ -11,7 +11,7 @@ import java.util.List;
 @Setter
 @EqualsAndHashCode(of = "id")
 @Entity
-@Table(name = "tb_evento_alerta")
+@Table(name = "tb_regiao_monitorada")
 public class RegiaoMonitorada {
 
 
